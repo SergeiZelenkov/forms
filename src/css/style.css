@@ -1,59 +1,55 @@
-.section {
-  text-align: center;
-}
-
-.popover-wrapper {
-  position: relative;
-  display: inline-block;
-  margin-top: 150px;
-}
-
 .btn {
-  background-color: #d9534f;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  font-size: 16px;
-  border-radius: 6px;
-  cursor: pointer;
-}
+      background-color: #d9534f;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
 
-.popover {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-18px);
-  width: 300px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-}
+    .popover {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-18px);
+      width: 300px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
 
-.popover::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 10px;
-  border-style: solid;
-  border-color: #fff transparent transparent transparent;
-}
+    .popover::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px;
+      border-style: solid;
+      border-color: #fff transparent transparent transparent;
+    }
 
-.popover-header {
-  padding: 8px 12px;
-  font-weight: bold;
-  border-bottom: 1px solid #ccc;
-  background-color: lightgrey;
-}
+    .popover-header {
+      padding: 8px 12px;
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+      background-color: lightgrey;
+    }
 
-.popover-body {
-  padding: 12px;
-  font-size: 14px;
-}
+    .popover-body {
+      padding: 12px;
+      font-size: 14px;
+    }
 
-.hidden {
-  display: none;
-}
+    .hidden {
+      display: none;
+    }
+
+    .wrapper {
+      position: relative;
+      margin-top: 150px;
+      text-align: center;
+    }
